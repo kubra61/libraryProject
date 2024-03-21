@@ -1,0 +1,60 @@
+// category-author.scss
+
+.category-author {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #98FB98;
+    margin-right: 8.2%;
+    margin-left: 8.2%;
+    margin-top: 5px;
+  
+    h1 {
+      margin-bottom: 10px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input,
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+  
+    button {
+      padding: 8px 16px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  
+      &.send {
+        background-color: #32cd32;
+        color: white;
+      }
+  
+      &.delete {
+        background-color: #912d2d;
+        color: white;
+      }
+  
+      &.show {
+        background-color: #b9b940;
+        color: white;
+      }
+  
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  
+  
+  
